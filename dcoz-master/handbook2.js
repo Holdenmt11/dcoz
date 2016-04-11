@@ -1,22 +1,3 @@
-document.getElementById("nav01").innerHTML =
-"<ul class='topnav'>"+
-  "<li><a class='active' href='#home'>Map</a></li>"+
-  "<li><a href='#news'>Resources</a></li>"+
-  "<li><a href='#contact'>DCOZ Home</a></li>"+
-"</ul>"+
-
-"<div class='container'>"+
-
-"<table width='100%'>"+
-"<tr>"+
-"<td><img width='100px'  src='C:\DCOZ_Dev2\assets\img\dcoz_logo.png'></td>"+
-"<td style='text-align:right; padding-right:15px; font-size:36px;'>Zoning Handbook</td>"+
-"</td>"+
-"</tr>"+
-"</table>"+
-
-"</div>"+
-
 "<div class='navbar navbar-inverse' role='navigation'>"+
     "<div class='container-fluid'>"+
         "<div class='navbar-header' >"+
@@ -759,7 +740,3 @@ document.getElementById("nav01").innerHTML =
   "      </div>"+
  "   </div>"+
 "</div>";
-
-
-document.getElementById("foot01").innerHTML =
-"<div style='background-color:#1C64B7; color:white; text-align:center; padding-bottom:20px; padding-top:20px'>&copy; 2016 District of Columbia Office of Zoning</div>";
