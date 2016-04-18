@@ -11,10 +11,10 @@ document.getElementById("nav01").innerHTML =
 
 
 
-"<div class='navbar-inverse' role='navigation'>"+
+"<div class='navbar navbar-inverse' role='navigation'>"+
     "<div class='container-fluid'>"+
         "<div class='navbar-header' >"+
-            "<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-ex1-collapse'> "+ 
+            "<button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-ex1-collapse'>  "+
                 "<span class='sr-only'>Toggle navigation</span>"+
                 "<span ></span>"+
                 "<span >Menu</span>"+
@@ -31,7 +31,7 @@ document.getElementById("nav01").innerHTML =
 				"<li class='dropdown'>"+
                    " <a href='#'  data-toggle='dropdown'>Online Services <b class='caret'></b></a>"+
                    " <ul class='dropdown-menu' >"+
-                     "   <li class='  dropdown  '>"+
+                     "   <li>"+
                           "  <a href='#' >IZIS - File and Manage Cases Online</a></li>"+
 						"	<li class='  dropdown  '>"+
                          "   <a href='#' >IZIS - ZC & BZA Case Records</a></li>"+

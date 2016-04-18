@@ -423,7 +423,7 @@ a:focus {
 .dropdown-toggle > a:hover,
 .dropdown-toggle:focus {
   outline: 0;
-  display:block;
+  display:none;
 }
 .dropdown-menu {
   position: absolute;
@@ -459,6 +459,9 @@ a:focus {
   overflow: visible;
   background-color: #e5e5e5;
 }
+
+
+
 .dropdown-menu > li > a {
   display: block;
   padding: 3px 20px;
@@ -730,22 +733,21 @@ a:focus {
   }
 }
 
-}
+
 
 .navbar-toggle {
-  position: relative;
-  float: right;
-  float: right;
-  width:100%;
-  margin-top: 10px;
-	height:20px;
-  margin-bottom: 10px;
-  background-color: #F2F2F2;
-  background-image: none;
-  border: 0px solid transparent;
-  border-radius: 0px;
-  
+    position: relative;
+    float: right;
+    width: 100%;
+    margin-top: 0;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+    background-image: none;
+    border: 0px solid transparent;
+    border-radius: 0px;
 }
+
 .navbar-toggle:focus {
   outline: 0;
 }
@@ -763,7 +765,14 @@ a:focus {
     display: block;
 	width:100%;
   }
+  
 }
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+}
+
 .navbar-nav {
   margin: 7.5px -15px;
 }
@@ -1039,14 +1048,14 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     color: black;
 	background-color: white;
 	border: 1px solid white;
-	display:block;
+	display:none;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
-    background-color: white;
-	display:block;
+    background-color: red;
+	display:none;
   }
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
